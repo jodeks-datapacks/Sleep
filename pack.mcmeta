@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 8,
-    "description": "Shows who is currently sleeping and skips the night"
+    "pack_format": 26,
+    "description": "Shows who is currently sleeping and skips the night. [1.20.4] v.0.2.0"
   }
 }

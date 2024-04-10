@@ -1,3 +1,6 @@
+execute as @a unless score @s sleep_notification = @s sleep_notification run scoreboard players set @s sleep_notification 0
+scoreboard players enable @a sleep_notification
+
 # How long does one player sleep
 scoreboard players set @a[scores={sleep.time_since_rest=1..}] sleep.time_in_bed 0
 scoreboard players add @a[scores={sleep.time_since_rest=0}] sleep.time_in_bed 1
@@ -14,4 +17,6 @@ execute as @a[scores={sleep.time_in_bed=0}, tag=sleep.sleeping] run function sle
 
 execute as @a[scores={sleep.time_in_bed=100..}] run time set 0
 
-execute if score $global sleep.total_speeping matches 0 run function sleep:timeofday
+execute as @a[scores={sleep_notification=1..}] if score $global sleep.total_speeping matches 0 run function sleep:timeofday
+
+

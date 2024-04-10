@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon": {
+          "item": "minecraft:command_block_minecart"
+      },
+      "title": "Utility",
+      "description": "https://modrinth.com/collection/P5y8mJyI",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false
+  },
+  "parent": "jodek:root",
+  "criteria": {
+      "tick": {
+          "trigger": "minecraft:tick"
+      }
+  }
+}
