@@ -1,10 +1,10 @@
 {
   "display": {
       "icon": {
-          "item": "minecraft:red_bed"
+          "id": "minecraft:red_bed"
       },
       "title": "Sleep",
-      "description": "Displays sleeping players and skips the night after some time",
+      "description": "Displays sleeping players and skips the night if one player slept 5s",
       "frame": "task",
       "show_toast": false,
       "announce_to_chat": false
