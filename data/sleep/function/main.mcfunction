@@ -46,5 +46,7 @@ execute as @a at @s positioned ~ ~0.3 ~ unless entity @s[dx=0] run tag @s add sl
 
 
 
+scoreboard players enable @a help.sleep
 
+execute as @a if score @s help.sleep matches 1 run function sleep:trigger_help
 

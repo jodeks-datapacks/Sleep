@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Sleep","color":"blue","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" loaded - ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"[1.21]","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"v.2.3.1","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}}]
+tellraw @a ["",{"text":"Sleep","color":"blue","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" loaded - ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"[1.21]","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"v.2.4.1","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}}]
 
 scoreboard objectives add sleep.time_since_rest custom:time_since_rest
 
@@ -23,7 +23,7 @@ scoreboard objectives add sleep.players_online dummy
 
 # config
 # open config
-scoreboard objectives add sleep.config trigger
+scoreboard objectives add sleep.config dummy
 
 
 
@@ -52,4 +52,6 @@ execute as @a unless score &time_control sleep.config = &time_control sleep.conf
 
 # notification settings
 scoreboard objectives add sleep_notification trigger
+
+scoreboard objectives add help.sleep trigger
 
