@@ -1,1 +1,0 @@
-title @a actionbar [{"nbt":"players_sleeping[0].name", "storage":"sleep:sleep", "color": "yellow"}, {"text":" and ","color":"white"}, {"score":{"name":"$global","objective":"sleep.total_sleeping", "color": "yellow"}}, {"text":" players are sleeping","color":"white"}]
