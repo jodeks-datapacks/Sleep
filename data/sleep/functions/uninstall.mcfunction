@@ -1,5 +1,3 @@
-datapack disable "file/Sleep"
-
 scoreboard objectives remove sleep.time_since_rest
 
 scoreboard objectives remove sleep.time_in_bed 

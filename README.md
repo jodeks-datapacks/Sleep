@@ -12,6 +12,10 @@
 
 **5.** Set for yourself a notification for when you can sleep
 
+![One player is sleeping](https://cdn.modrinth.com/data/cached_images/aeb01f99d34880e1fa6cf637c6e06f233a0cbcf1.png)
+
+![2 players are sleeping](https://cdn.modrinth.com/data/cached_images/a175cc59a3b9ef91fb5e13b2ea8f17dd345f3a1b.png)
+
 ## Config
 
 ### Config update coming soon
@@ -80,8 +84,13 @@ value = 3 = 10 seconds
 
 **Who can change that?** --> Only server operators
 
+---
 
-## Upcoming Features
-**1.** Compatibility with my [AFK Announcer](https://modrinth.com/datapack/afk-announcer) datapack/mod so players that are afk do not need to sleep to skip the night
+## Datapack created by Jodek published on modrinth: https://modrinth.com/user/Jodek
 
-**2.** A limited time no sleep setting so you cannot sleep for e.g. 1 or 2 days
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
+  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
+ </picture><br>
+ 
+Questions or issues? -> [discord server](https://discord.gg/z2n3qTzQY6) | _or create an issue on github_
