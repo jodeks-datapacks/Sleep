@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Sleep","color":"blue","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" loaded - ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"[1.21]","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"v.2.4.2","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}}]
+tellraw @a ["",{"text":"Sleep","color":"blue","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" loaded - ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"[1.21]","color":"green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}},{"text":"v.2.5.2","color":"dark_green","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/sleep/"},"hoverEvent":{"action":"show_text","contents":"modrinth.com/datapack/sleep/"}}]
 
 scoreboard objectives add sleep.time_since_rest custom:time_since_rest
 
@@ -38,6 +38,9 @@ execute as @a unless score &amount_to_sleep sleep.config = &amount_to_sleep slee
 
 # time skip or accelerated
 execute as @a unless score &time_control sleep.config = &time_control sleep.config run scoreboard players set &time_control sleep.config 0
+
+# afk players are included in online players or not
+execute as @a unless score &afk_players_sleep sleep.config = &afk_players_sleep sleep.config run scoreboard players set &afk_players_sleep sleep.config 0
 
 # setting to disable phantoms
 # execute as @a unless score &phantoms_spawning sleep.config = &phantoms_spawning sleep.config run scoreboard players set &phantoms_spawning sleep.config 0

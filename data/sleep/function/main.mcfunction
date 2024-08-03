@@ -2,8 +2,9 @@
 execute as @a unless score @s sleep_notification = @s sleep_notification run scoreboard players set @s sleep_notification 0
 scoreboard players enable @a sleep_notification
 
-execute as @a[scores={sleep_notification=1..}] at @s if score $global sleep.total_speeping matches 0 run function sleep:timeofday
+schedule function sleep:timeofday 1t
 
+execute if score &afk_players_sleep sleep.config matches 1 run function sleep:calc_online_players_afk
 
 # How long does one player sleep
 scoreboard players set @a[scores={sleep.time_since_rest=1..}] sleep.time_in_bed 0
@@ -26,7 +27,7 @@ execute if score &sleep_amount sleep.sleeping_players = &amount_to_sleep sleep.c
 execute if entity @a[tag=sleeping] run function sleep:actionbar/main_actionbar
 
 # check how many players --> if only 1 then skip when 1 sleeps
-execute store result score &playerNum sleep.players_online run list
+execute if score &afk_players_sleep sleep.config matches 0 run execute store result score &playerNum sleep.players_online run list
 execute if score &playerNum sleep.players_online < &amount_to_sleep sleep.config if score &sleep_amount sleep.sleeping_players < &amount_to_sleep sleep.config run function sleep:time_control/time_control
 execute as @a[scores={sleep.time_in_bed=1..}] run execute if score &playerNum sleep.players_online < &amount_to_sleep sleep.config if score &sleep_amount sleep.sleeping_players < &amount_to_sleep sleep.config run function sleep:actionbar/main_actionbar
 
