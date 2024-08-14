@@ -1,5 +1,5 @@
-execute if score &time_until_skip sleep.config matches 1 run function sleep:time_control/time_skip/2seconds
+$execute as @a[scores={sleep.time_in_bed=$(time_until_skip_ticks)}] run function sleep:time_macro with storage sleep:skip_time_macro
 
-execute if score &time_until_skip sleep.config matches 2 run function sleep:time_control/time_skip/5seconds
+# weather clear
+$execute if predicate sleep:weather_check_thunder run execute as @a[scores={sleep.time_in_bed=$(time_until_skip_ticks)..}] run weather clear
 
-execute if score &time_until_skip sleep.config matches 3 run function sleep:time_control/time_skip/10seconds
