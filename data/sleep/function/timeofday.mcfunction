@@ -1,12 +1,16 @@
-scoreboard players set Timeofday sleep.clock 0
+scoreboard players set &daytime sleep.clock 0
 
-execute store result score Timeofday sleep.clock run time query daytime
-execute as @a[scores={sleep_notification=1}] at @s if score Timeofday sleep.clock matches 12542 run tellraw @s {"text":"You can sleep now","color":"yellow", "hoverEvent":{"action":"show_text","value":[{"text":"by clicking on a bed"}]}}
-
-execute as @a[scores={sleep_notification=2}] at @s if score Timeofday sleep.clock matches 12542 run playsound minecraft:block.note_block.cow_bell voice
+execute store result score &daytime sleep.clock run time query daytime
 
 
-# execute as @a[scores={sleep_notification=3}] at @s if score Timeofday sleep.clock matches 12542 run tellraw @s {"text":"You can sleep now","color":"yellow", "hoverEvent":{"action":"show_text","value":[{"text":"by clicking on a bed"}]}}
+# calc how long until 24000 --> skip_time
+execute if score &daytime sleep.clock matches 1 run scoreboard players set &skip_time sleep.clock 12000
 
-execute as @a[scores={sleep_notification=3}] at @s if score Timeofday sleep.clock matches 12542 run playsound minecraft:block.note_block.cow_bell voice
+execute if score &daytime sleep.clock > &fixed_value_12000 sleep.clock run scoreboard players remove &skip_time sleep.clock 1
+
+
+execute store result storage sleep:skip_time_macro value int 1 run scoreboard players get &skip_time sleep.clock
+
+
+
 

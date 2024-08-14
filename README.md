@@ -6,11 +6,17 @@
 
 **2.** Change how many players have to sleep to skip the night in the config
 
-**3.** Change if the night should be instantly skipped or just accelerated in the config
+**3.** Use percentage instead of amount of players
 
-**4.** Change how long it should take to skip the night in the config
+**4.** Change if the night should be instantly skipped or just accelerated in the config
 
-**5.** Set for yourself a notification for when you can sleep
+**5.** Change how long it should take to skip the night in the config
+
+**6.** Set for yourself a notification for when you can sleep
+
+**7.** Change how names should get displayed in the actionbar
+
+**8.** Compatible with my [AFK Announcer](https://modrinth.com/datapack/afk-announcer) datapack/mod so players that are afk do not need to sleep to skip the night (you can change that with the config)
 
 ![One player is sleeping](https://cdn.modrinth.com/data/cached_images/aeb01f99d34880e1fa6cf637c6e06f233a0cbcf1.png)
 
@@ -56,8 +62,29 @@ If there are less players than your set value online, only 1 player has to sleep
 
 ## 
 
-**To change between instant night skip and time warp do:**
+**If you want to use percentage instead of amount of players**
+```
+/scoreboard players set &percentage_mode sleep.config value
+```
 
+value = 0 = off (amount of players is used) --> default
+
+value = 1 = on (percentage of players is used)
+
+##
+
+**To change the percentage of players that have to sleep**
+```
+scoreboard players set &percentage_to_sleep sleep.config value
+```
+
+value = percentage of players that have to sleep
+
+_default value = 50 (so 50% of the players have to sleep)_
+
+##
+
+**To change between instant night skip and time warp do:**
 
 ```
 /scoreboard players set &time_control sleep.config value
@@ -72,7 +99,6 @@ value = 1 = time warp
 
 **To change how long it should take to skip a night do:**
 
-
 ```
 /scoreboard players set &time_until_skip sleep.config value
 ```
@@ -84,13 +110,33 @@ value = 3 = 10 seconds
 
 **Who can change that?** --> Only server operators
 
----
+##
 
-## Datapack created by Jodek published on modrinth: https://modrinth.com/user/Jodek
+**To change if afk players should count to the players that need to sleep do:**
 
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
-  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
- </picture><br>
- 
-Questions or issues? -> [discord server](https://discord.gg/z2n3qTzQY6) | _or create an issue on github_
+```
+/scoreboard players set &afk_players_sleep sleep.config value
+```
+value = 0 = off --> default value
+
+value = 1 = on
+
+**Who can change that?** --> Only server operators
+
+##
+
+**To change how names get displayed in the actionbar**
+```
+/scoreboard &actionbar_display sleep.config set value
+```
+value = 0 = disabled ​​​​​​​
+
+value = 1 = Only names --> default
+
+value = 2 = @s selector (e.g. prefix will be shown)
+
+**Who can change that?** --> Only server operators
+
+## Upcoming Features
+
+**1.** A limited time no sleep setting so you cannot sleep for e.g. 1 or 2 days
