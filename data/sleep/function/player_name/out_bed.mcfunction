@@ -6,4 +6,3 @@ function sleep:player_name/remove_player_from_array with storage sleep:sleep pla
 
 title @a actionbar ""
 
-say out bed

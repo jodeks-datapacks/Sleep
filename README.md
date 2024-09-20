@@ -137,6 +137,3 @@ value = 2 = @s selector (e.g. prefix will be shown)
 
 **Who can change that?** --> Only server operators
 
-## Upcoming Features
-
-**1.** A limited time no sleep setting so you cannot sleep for e.g. 1 or 2 days

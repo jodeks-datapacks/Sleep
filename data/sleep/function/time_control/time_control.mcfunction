@@ -2,7 +2,7 @@ scoreboard players set &time_add_rate sleep.clock 0
 
 scoreboard players operation &skip_time_2 sleep.clock = &skip_time sleep.clock
 
-scoreboard players operation &skip_time_2 sleep.clock /= &time_until_skip_ticks sleep.clock
+scoreboard players operation &skip_time_2 sleep.clock /= &time_until_skip_ticks sleep.config
 
 
 execute store result storage sleep:time_add_rate time_add_rate int 1 run scoreboard players get &skip_time_2 sleep.clock
