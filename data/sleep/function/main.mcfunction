@@ -30,6 +30,15 @@ execute if score &actionbar_display sleep.config matches 1 as @a[scores={sleep.t
 
 execute if score &actionbar_display sleep.config matches 1 as @a[scores={sleep.time_in_bed=0}, tag=sleep.sleeping_tag_added_at_in_bed] run function sleep:player_name/out_bed
 
+# clear title
+execute if entity @a[scores={sleep.time_in_bed=0}] unless score &daytime sleep.clock matches 1000..12542 run function sleep:clear_title
+
+
+# heal player when in bed
+execute if score &heal_when_sleeping sleep.config matches 1 as @a[scores={sleep.time_in_bed=1..}] run effect give @s regeneration 1 3 true
+
+execute if score &heal_when_sleeping sleep.config matches 2 as @a[scores={sleep.time_in_bed=1..}] run effect give @s instant_health 1 50 true
+
 # help scoreboard
 scoreboard players enable @a help.sleep
 
