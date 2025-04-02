@@ -1,24 +1,11 @@
-scoreboard objectives remove sleep.time_since_rest
+#> sleep:uninstall.mcfunction
 
-scoreboard objectives remove sleep.time_in_bed 
+function sleep:app/scoreboard/remove
 
-scoreboard objectives remove sleep.total_speeping
+function sleep:app/storage/remove
 
-scoreboard objectives remove sleep.clock
-
-scoreboard objectives remove sleep_notification
+function sleep:app/advancement/reset
 
 gamerule playersSleepingPercentage 100
 
-scoreboard objectives remove sleep.sleeping_players 
-
-scoreboard objectives remove sleep.players_online
-
-scoreboard objectives remove sleep.config
-
-scoreboard objectives remove help.sleep
-
-advancement revoke @a only jodek:sleep
-advancement revoke @a only jodek:root
-advancement revoke @a only jodek:utility
-
+say Successfully uninstalled Sleep!

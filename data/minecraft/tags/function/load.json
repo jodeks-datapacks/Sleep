@@ -1,5 +1,6 @@
 {
   "values": [
-  "sleep:load"
-]
+    "sleep:app/setup",
+    "sleep:app/load_message"
+  ]
 }
