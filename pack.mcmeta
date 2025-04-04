@@ -1,6 +1,38 @@
 {
   "pack": {
     "pack_format": 71,
-    "description": "Simple Multiplayer Sleep - [1.21.5] v.5.0.0"
+    "description": [
+      {
+        "text": "\"Multiplayer Sleep\" (sleep)"
+      },
+      "\n",
+      {
+        "text": "Skip the night automatically when a configurable percentage or amount of players sleep!",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "Version "
+      },
+      {
+        "text": "4.0.0",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "1.21.5",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "text": "by "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
   }
 }

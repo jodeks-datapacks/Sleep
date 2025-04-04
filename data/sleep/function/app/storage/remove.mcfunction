@@ -9,6 +9,6 @@ data remove storage sleep:root player_name
 
 data remove storage sleep:image current
 
-data remove storage config_system:temp menu
-data remove storage config_system:temp current_option
-data remove storage config_system:temp options
+data remove storage config_system:sleep menu
+data remove storage config_system:sleep current_option
+data remove storage config_system:sleep options

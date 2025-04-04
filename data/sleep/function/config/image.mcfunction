@@ -16,7 +16,7 @@ function sleep:image/set_image_data {\
     "Sleep",\
     {"text": "Simple Multiplayer Sleep", "color": "#aaaaaa"},\
     "",\
-    [{"text": "Datapack version: ", "color": "#00a800"}, {"text": "v.1.0.0", "color": "#54fc54"}],\
+    [{"text": "Datapack version: ", "color": "#00a800"}, {"text": "v.4.0.0", "color": "#54fc54"}],\
     [{"text": "Game version: ", "color": "#00a800"}, {"text": "1.21.5", "color": "#54fc54"}],\
     "",\
     [{"text": "By ", "color": "#fcfcfc"}, {"text": "Jodek", "color": "#fcfc54"}],\

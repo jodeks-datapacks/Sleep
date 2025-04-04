@@ -1,1 +1,1 @@
-data modify storage config_system:temp menu append value "\n"
+data modify storage config_system:sleep menu append value "\n"

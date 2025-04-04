@@ -1,7 +1,7 @@
 
 # clear options
-data remove storage config_system:temp options
-data modify storage config_system:temp options set value []
+data remove storage config_system:sleep options
+data modify storage config_system:sleep options set value []
 
 # Get current page 
 scoreboard players operation #current_page chat_config.sleep = #current_page chat_config.sleep
