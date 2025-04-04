@@ -28,8 +28,8 @@ $data modify storage sleep:image height set value $(height)
 $data modify storage sleep:image background_color set value "$(background_color)"
 $data modify storage sleep:image description set value $(description)
 
-data modify storage sleep:image pixel_character.blank set value '"　"'
-data modify storage sleep:image pixel_character.pixel set value '"▌▌"'
-data modify storage sleep:image pixel_character.line_break set value '"\\n"'
+data modify storage sleep:image pixel_character.blank set value "　"
+data modify storage sleep:image pixel_character.pixel set value "▌▌"
+data modify storage sleep:image pixel_character.line_break set value '\n'
 
 function sleep:image/process/generate

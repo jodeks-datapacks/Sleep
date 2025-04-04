@@ -19,10 +19,10 @@ execute if score $index.column sleep.image matches 1 run \
   function sleep:image/process/append/blank
 
 # Append colored pixel
-execute unless data storage sleep:image current{pixel_color: ""} run \
+execute unless data storage sleep:image current{pixel_color: ''} run \
   function sleep:image/process/append/pixel
 # Append background pixel
-execute if data storage sleep:image current{pixel_color: ""} run \
+execute if data storage sleep:image current{pixel_color: ''} run \
   function sleep:image/process/append/background
 
 # Append description
@@ -34,3 +34,4 @@ data remove storage sleep:image current.image_data[0]
 # Loop over rows
 execute if score $index.row sleep.image < $height sleep.image run \
   function sleep:image/process/loop_over_image_data
+ 

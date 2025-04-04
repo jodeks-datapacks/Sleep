@@ -1,0 +1,2 @@
+$execute unless data storage config_system:temp current_option{description:""} run data modify storage config_system:temp menu append value {text:"$(description)",color:"gray"}
+execute unless data storage config_system:temp current_option{description:""} run data modify storage config_system:temp menu append value "\n"

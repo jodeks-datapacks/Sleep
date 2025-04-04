@@ -9,23 +9,23 @@ function sleep:image/set_image_data {\
     "#4f402b", "#453827", "#4f402b", "#cc9e72", "#cea37a", "#4c3d29", "#4f402b", "#453827",\
     "#cea37a", "#1f1200", "#cea37a", "#cea37a", "#cea37a", "#cea37a", "#1f1200", "#cea37a",\
     "#cc9e72", "#cea37a", "#cea37a", "#cca077", "#cca077", "#cea37a", "#cea37a", "#cea37a",\
-    "#c69363", "#cc9e72", "#cea37a", "#1f1200", "#1f1200", "#cea37a", "#cc9e72", "#c69363",\
+    "#c69363", "#cc9e72", "#cea37a", "#1f1200", "#1f1200", "#cea37a", "#cc9e72", "#c69363"\
   ],\
   background_color: "#303030",\
   description: [\
-    '"Sleep"',\
-    '{"text": "Simple Multiplayer Sleep", "color": "#aaaaaa"}',\
-    '""',\
-    '[{"text": "Datapack version: ", "color": "#00a800"}, {"text": "v.3.2.1", "color": "#54fc54"}]',\
-    '[{"text": "Game version: ", "color": "#00a800"}, {"text": "1.21", "color": "#54fc54"}]',\
-    '""',\
-    '[{"text": "By ", "color": "#fcfcfc"}, {"text": "Jodek", "color": "#fcfc54"}]',\
-    '[{"text": "modrinth.com/datapack/sleep", "color": "#a800a8"}]',\
-    '""',\
-    '""',\
-    '""',\
-    '""',\
-    '""',\
-    '""'\
+    "Sleep",\
+    {"text": "Simple Multiplayer Sleep", "color": "#aaaaaa"},\
+    "",\
+    [{"text": "Datapack version: ", "color": "#00a800"}, {"text": "v.1.0.0", "color": "#54fc54"}],\
+    [{"text": "Game version: ", "color": "#00a800"}, {"text": "1.21.5", "color": "#54fc54"}],\
+    "",\
+    [{"text": "By ", "color": "#fcfcfc"}, {"text": "Jodek", "color": "#fcfc54"}],\
+    [{"text": "modrinth.com/datapack/sleep", "color": "#a800a8"}],\
+    "",\
+    "",\
+    "",\
+    "",\
+    "",\
+    ""\
   ]\
 }

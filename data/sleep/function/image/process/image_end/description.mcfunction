@@ -13,3 +13,4 @@ execute unless score $index.image_data sleep.image = $length sleep.image \
 
 # Remove first element from the description
 data remove storage sleep:image current.description[0]
+ 

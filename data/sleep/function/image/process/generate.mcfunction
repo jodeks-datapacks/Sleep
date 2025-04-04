@@ -1,11 +1,10 @@
-#> sleep:image/generate
+#> sleep:image/process/generate
 #
 # This function generates the image data.
 
 data modify storage sleep:image current.image_data set from storage sleep:image image_data
 data modify storage sleep:image current.description set from storage sleep:image description
-data modify storage sleep:image current.pixel_character set \
-  from storage sleep:image pixel_character.pixel
+data modify storage sleep:image current.pixel_character set from storage sleep:image pixel_character.pixel
 
 # Reset index score
 scoreboard players set $index.image_data sleep.image 0
