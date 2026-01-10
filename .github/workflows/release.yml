@@ -7,3 +7,4 @@ jobs:
     uses: jodeks-datapacks/.github/.github/workflows/modrinth-publish.yml@main
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
