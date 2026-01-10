@@ -1,0 +1,9 @@
+name: Publish to Modrinth
+on:
+  release:
+    types: [published]
+jobs:
+  publish:
+    uses: jodeks-datapacks/.github/.github/workflows/modrinth-publish.yml@main
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
