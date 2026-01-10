@@ -1,0 +1,53 @@
+{
+  "pack": {
+    "pack_format": 80,
+    "min_format": 80,
+    "max_format": 999,
+    "supported_formats": {
+       "min_inclusive": 80,
+       "max_inclusive": 999
+    },
+    "description": [
+      {
+        "text": "\"Sleep\" (sleep)"
+      },
+      "\n",
+      {
+        "text": "Configurable multiplayer sleep",
+        "color": "#aaaaaa"
+      },
+      "\n\n",
+      {
+        "text": "Version "
+      },
+      {
+        "text": "4.3.12",
+        "color": "#55ff55"
+      },
+      {
+        "text": " for Minecraft "
+      },
+      {
+        "text": "1.21.6+",
+        "color": "#55ff55"
+      },
+      "\n",
+      {
+        "text": "by "
+      },
+      {
+        "text": "Jodek",
+        "color": "#ffff55"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay-94",
+        "min_format": 94,
+        "max_format": 999
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "values": [
+    "sleep:app/setup",
+    "sleep:app/load_message"
+  ]
+}

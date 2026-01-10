@@ -1,0 +1,2 @@
+execute if score &amount_of_sleeping_players sleep.players matches 0 if score &sleeping sleep.players matches 1 run tick sprint stop
+execute if score &amount_of_sleeping_players sleep.players matches 0 run scoreboard players set &sleeping sleep.players 0
