@@ -3,7 +3,7 @@ on:
   release:
     types: [published]
 jobs:
-  workflow_call:
+  publish:
     uses: jodeks-datapacks/.github/.github/workflows/modrinth-publish.yml@main
     secrets:
       MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
