@@ -1,7 +1,17 @@
 {
   "project_id": "WTzuSu8P",
-  "loaders": ["datapack"],
-  "game_versions": ["1.21.6", "1.21.7", "1.21.8", "1.21.9", "1.21.10", "1.21.11"],
+  "loaders": [
+    "datapack"
+  ],
+  "game_versions": [
+    "1.21.6",
+    "1.21.7",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11"
+  ],
   "version_type": "release",
-  "dependencies": ""
+  "dependencies": "",
+  "discord_role_id": "1252025936266661920"
 }
