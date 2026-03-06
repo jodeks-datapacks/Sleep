@@ -1,23 +1,24 @@
-# Sleep
-
-<div style="display: flex; gap: 20px;">
-<a href="https://ko-fi.com/H2H011LYHJ"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"/></a>
+<div align="center">
   
-<a href="https://github.com/sponsors/Jodekq" target="_blank">
-  <img src="https://img.shields.io/badge/Sponsor-Jodek-green?style=for-the-badge&logo=github&logoWidth=20" alt="Sponsor @Jodek" />
-</a>
+![minecraft datapack title...](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/sleep.png)
+
 </div>
 
-###
+<div align="center">
 
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
-  <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
- </picture><br>
- 
-Questions or issues? -> [discord server](https://discord.gg/z2n3qTzQY6) | _or create an issue on github_
+[![jodeks discord - discord badge - pixel badge - pixel discord badge - jodeks datapacks - datapacks discord](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Discord.png)](https://discord.gg/z2n3qTzQY6)&nbsp;&nbsp;
+[![matrix - datapacks matrix - jodeks datapacks matrix](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Matrix.png)](https://matrix.to/#/#jodeks_datapacks:matrix.org)&nbsp;&nbsp;
+[![armor stand arms minecraft datapack github issues](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Issues.png)](https://github.com/jodeks-datapacks/Sleep/issues)&nbsp;&nbsp;
+[![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/Kofi.png)](https://ko-fi.com/jodek)&nbsp;&nbsp;
+[![github sponsor jodek donation datapacks minecraft](https://raw.githubusercontent.com/jodeks-datapacks/Assets/main/uploads/GH_Sponsor_Pink.png)](https://github.com/sponsors/Jodekq)
 
-Suggestions and ideas to improve the datapack are welcome and the best support
+</div>
+
+<div align="center">
+  
+![sleep skip night change amount of players to skip night minecraft sleeping](https://github.com/jodeks-datapacks/Assets/blob/main/gifs/sleep-skip-time-warp-night-to-day.gif?raw=true)
+
+</div>
 
 ## Features
 
@@ -46,8 +47,6 @@ Suggestions and ideas to improve the datapack are welcome and the best support
 ![One player is sleeping](https://cdn.modrinth.com/data/cached_images/aeb01f99d34880e1fa6cf637c6e06f233a0cbcf1.png)
 
 ![2 players are sleeping](https://cdn.modrinth.com/data/cached_images/a175cc59a3b9ef91fb5e13b2ea8f17dd345f3a1b.png)
-
-![sleep skip night change amount of players to skip night minecraft sleeping](https://github.com/jodeks-datapacks/Assets/blob/main/gifs/sleep-skip-time-warp-night-to-day.gif?raw=true)
 
 ## Config
 

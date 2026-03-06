@@ -1,6 +1,8 @@
 {
   "project_id": "WTzuSu8P",
   "curseforge_project_id": "1425632",
+  "curseforge_mod_project_id": "1425695",
+  "curseforge_slug": "sleep",
   "loaders": [
     "datapack"
   ],
