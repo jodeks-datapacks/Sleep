@@ -1,20 +1,20 @@
 #> sleep:app/load_message
 # Called on load
 
-tellraw @a [\
-  "",\
+execute if score &sleep_load_message jodek.config matches 1 run tellraw @a [\
   {\
-    text: "[",\
-    color: "#aaaaaa"\
+    "text": "[",\
+    "color": "#aaaaaa"\
   },\
   {\
-    text: "Sleep",\
-    hover_event: {\
-      action: "show_text",\
-      value: [\
+    "text": "Sleep",\
+    color: "#ffffff",\
+    "hover_event": {\
+      "action": "show_text",\
+      "value": [\
         {\
-          nbt:"tellraw[]",\
-          storage: "sleep:image",\
+          "nbt":"tellraw[]",\
+          "storage": "sleep:image",\
           interpret: true,\
           separator: ""\
         }\
@@ -47,7 +47,7 @@ tellraw @a [\
     }\
   },\
   {\
-    text: " loaded! ",\
+    translate: "jodek.loaded", fallback: " loaded! ",\
     color: "#ffffff",\
     hover_event: {\
       action: "show_text",\
@@ -67,7 +67,7 @@ tellraw @a [\
     }\
   },\
   {\
-    text: "hover for more info",\
+    translate: "jodek.hover_for_more_info", fallback: "hover for more info",\
     color: "#929796",\
     hover_event: {\
       action: "show_text",\

@@ -40,5 +40,5 @@ execute if score &amount_of_sleeping_players sleep.players matches 1.. if score 
 
 scoreboard players enable @a sleep.config
 execute as @a if score @s sleep.config matches 1 run \
-  function sleep:config/dialog_config with storage sleep:root
+  function sleep:config/dialog_config with storage sleep:root data
 scoreboard players set @a sleep.config 0

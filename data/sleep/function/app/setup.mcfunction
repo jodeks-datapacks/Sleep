@@ -1,6 +1,10 @@
 #> sleep:app/setup
 # Called on load
 
+scoreboard objectives add jodek.config dummy
+execute unless score &sleep_load_message jodek.config = &sleep_load_message jodek.config run scoreboard players set &sleep_load_message jodek.config 1
+execute unless score &sleep_advancements jodek.config = &sleep_advancements jodek.config run scoreboard players set &sleep_advancements jodek.config 1
+
 # Set the playersSleepingPercentage gamerule to 101
 # To disable the vanilla sleep system
 # Without this the datapack will not work
@@ -58,4 +62,4 @@ function sleep:config/set_default
 scoreboard players operation &time_until_skip_ticks sleep.config = &time_until_skip sleep.config
 scoreboard players operation &time_until_skip_ticks sleep.config *= &fixed_value_20 sleep.time_values
 
-execute store result storage sleep:root time_until_skip_ticks int 1 run scoreboard players get &time_until_skip_ticks sleep.config
+execute store result storage sleep:root data.time_until_skip_ticks int 1 run scoreboard players get &time_until_skip_ticks sleep.config

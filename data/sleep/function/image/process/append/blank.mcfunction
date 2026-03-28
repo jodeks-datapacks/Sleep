@@ -1,1 +1,1 @@
-data modify storage sleep:image tellraw append from storage sleep:image pixel_character.blank
+data modify storage sleep:image data.tellraw append from storage sleep:image data.pixel_character.blank

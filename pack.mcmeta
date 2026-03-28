@@ -4,8 +4,8 @@
     "min_format": 80,
     "max_format": 999,
     "supported_formats": {
-       "min_inclusive": 80,
-       "max_inclusive": 999
+      "min_inclusive": 80,
+      "max_inclusive": 999
     },
     "description": [
       {
@@ -13,19 +13,31 @@
       },
       "\n",
       {
-        "text": "Configurable multiplayer sleep",
+        "translate": "sleep.description",
+        "fallback": "Configurable multiplayer sleep",
         "color": "#aaaaaa"
       },
       "\n\n",
       {
-        "text": "Version "
+        "translate": "jodek.version",
+        "fallback": "Version"
       },
       {
-        "text": "4.3.13",
+        "text": " "
+      },
+      {
+        "text": "4.3.14",
         "color": "#55ff55"
       },
       {
-        "text": " for Minecraft "
+        "text": " "
+      },
+      {
+        "translate": "jodek.for_minecraft",
+        "fallback": "for Minecraft"
+      },
+      {
+        "text": " "
       },
       {
         "text": "1.21.6+",
@@ -33,7 +45,11 @@
       },
       "\n",
       {
-        "text": "by "
+        "translate": "jodek.by",
+        "fallback": "by"
+      },
+      {
+        "text": " "
       },
       {
         "text": "Jodek",

@@ -1,3 +1,3 @@
-data modify storage sleep:image tellraw append \
-  from storage sleep:image pixel_character.line_break
+data modify storage sleep:image data.tellraw append \
+  from storage sleep:image data.pixel_character.line_break
 

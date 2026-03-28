@@ -4,7 +4,7 @@ tag @s remove sleep.sleeping_tag_added_at_in_bed
 
 execute as @s at @s run function sleep:app/player_name/get_player_name
 
-function sleep:app/player_name/remove_player_from_array with storage sleep:root player_name
+function sleep:app/player_name/remove_player_from_array with storage sleep:root data.player_name
 
 function sleep:app/title/clear_title
 

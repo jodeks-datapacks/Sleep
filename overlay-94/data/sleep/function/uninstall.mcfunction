@@ -13,13 +13,13 @@ scoreboard objectives remove sleep.actionbar_display_selector
 scoreboard objectives remove sleep.notification_chat
 scoreboard objectives remove sleep.notification_sound
 
-data remove storage sleep:root time_add_rate
-data remove storage sleep:root skip_time
-data remove storage sleep:root players_sleeping
-data remove storage sleep:root time_until_skip_ticks
-data remove storage sleep:root player_name
+data remove storage sleep:root data.time_add_rate
+data remove storage sleep:root data.skip_time
+data remove storage sleep:root data.players_sleeping
+data remove storage sleep:root data.time_until_skip_ticks
+data remove storage sleep:root data.player_name
 
-data remove storage sleep:image current
+data remove storage sleep:image data.current
 
 gamerule players_sleeping_percentage 100
 

@@ -3,32 +3,46 @@
     "icon": {
       "id": "minecraft:red_bed"
     },
-    "title": "Sleep                            ",
+    "title": "Sleep                     ",
     "description": [
-      "",
       {
-        "text": "Configurable multiplayer sleep\n",
+        "translate": "sleep.description",
+        "fallback": "Configurable multiplayer sleep",
         "color": "white"
       },
       {
-        "text": "/trigger sleep.config\n\n",
+        "text": "\n"
+      },
+      {
+        "text": "/trigger sleep.config",
         "color": "yellow"
       },
       {
-        "text": "Datapack version: ",
+        "text": "\n\n"
+      },
+      {
+        "translate": "jodek.datapack_version",
+        "fallback": "Datapack version: ",
         "color": "dark_green"
       },
       {
-        "text": "v4.3.13\n",
+        "text": "v4.3.14",
         "color": "green"
       },
       {
-        "text": "Game version: ",
+        "text": "\n"
+      },
+      {
+        "translate": "jodek.game_version",
+        "fallback": "Game version: ",
         "color": "dark_green"
       },
       {
-        "text": "1.21.6+\n\n",
+        "text": "1.21.6+",
         "color": "green"
+      },
+      {
+        "text": "\n\n"
       },
       {
         "text": "modrinth.com/datapack/sleep",
@@ -37,12 +51,29 @@
     ],
     "frame": "task",
     "show_toast": false,
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "hidden": true
   },
   "parent": "jodek:utility",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&sleep_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 1
+          }
+        ]
+      }
     }
   }
 }
