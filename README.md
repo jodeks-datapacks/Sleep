@@ -25,23 +25,13 @@ https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Kofi.png)](https
 
 **1.** Sleeping players are displayed over the hotbar
 
-**2.** Change how many players have to sleep to skip the night in the config
+**2.** Change how many players have to sleep to skip the night in the config --> Default = 1
 
-**3.** Use percentage instead of amount of players
+**3.** Configure a lot of sleep related things with the config
 
-**4.** Change if the night should be instantly skipped or just accelerated in the config
+**4.** With my [Sleep Anytime You Want](https://modrinth.com/datapack/sleep-anytime-you-want) datapack/mod, you can sleep during any time of the day
 
-**5.** Change how long it should take to skip the night in the config
-
-**6.** Set for yourself a notification for when you can sleep
-
-**7.** Change how names should get displayed in the actionbar
-
-**8.** Change to get heal when sleeping or not
-
-**9.** With my [Sleep Anytime You Want](https://modrinth.com/datapack/sleep-anytime-you-want) datapack/mod, you can sleep during any time of the day
-
-**10.** Compatible with my [AFK Announcer](https://modrinth.com/datapack/afk-announcer) datapack/mod so players that are afk do not need to sleep to skip the night (you can change that with the config)
+**5.** Compatible with my [AFK Announcer](https://modrinth.com/datapack/afk-announcer) datapack/mod so players that are afk do not need to sleep to skip the night (you can change that with the config)
 
 ## Showcase
 
