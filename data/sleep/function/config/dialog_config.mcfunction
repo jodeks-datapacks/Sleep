@@ -73,7 +73,7 @@ $dialog show @s {\
             {\
               "translate": "sleep.config.tick_accelerate.example",\
               "fallback": "For example, furnaces smelt faster and crops grow faster"\
-            }\
+            },\
             "\n",\
             {\
               "translate": "sleep.config.tick_accelerate.server_warning",\
@@ -99,7 +99,7 @@ $dialog show @s {\
           "display": {\
             "translate": "sleep.config.skip_condition.amount",\
             "fallback": "Amount of players"\
-          }\
+          },\
           "initial": $(amount_mode_initial)\
         },\
         {\
@@ -107,7 +107,7 @@ $dialog show @s {\
           "display": {\
             "translate": "sleep.config.skip_condition.percentage",\
             "fallback": "Percentage of players"\
-          }\
+          },\
           "initial": $(percentage_mode_initial)\
         }\
       ]\
