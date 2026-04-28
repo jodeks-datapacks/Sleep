@@ -49,6 +49,11 @@
         "directory": "overlay-94",
         "min_format": 94,
         "max_format": 999
+      },
+      {
+        "directory": "overlay-101",
+        "min_format": 101,
+        "max_format": 999
       }
     ]
   }

@@ -2,7 +2,7 @@
 
 title @a actionbar \
   [\
-    {"nbt":"players_sleeping[0].name",\
+    {"nbt":"data.players_sleeping[0].name",\
      "storage":"sleep:root", "color": "yellow"},\
     {"text":" and ","color":"white"},\
     {"score":{"name":"&amount_of_sleeping_players",\
