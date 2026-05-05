@@ -1,7 +1,7 @@
 #> sleep:app/setup
 # Called on load
 
-scoreboard objectives add jodek.config dummy
+scoreboard objectives add jodek.config trigger
 execute unless score &sleep_load_message jodek.config = &sleep_load_message jodek.config run scoreboard players set &sleep_load_message jodek.config 1
 execute unless score &sleep_advancements jodek.config = &sleep_advancements jodek.config run scoreboard players set &sleep_advancements jodek.config 1
 
