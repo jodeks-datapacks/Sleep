@@ -7,7 +7,7 @@
 <div align="center">
 
 [![jodeks discord - discord badge - pixel badge - pixel discord badge - jodeks datapacks - datapacks discord](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Discord.png)](https://discord.gg/z2n3qTzQY6)&nbsp;&nbsp;
-[![matrix - datapacks matrix - jodeks datapacks matrix](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Matrix.png)](https://matrix.to/#/#jodeks_datapacks:matrix.org)&nbsp;&nbsp;
+[![datapacks jodek youtube](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/YouTube.png)](https://www.youtube.com/@jodek)&nbsp;&nbsp;
 [![armor stand arms minecraft datapack github issues](https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/GH_Issues.png)](https://github.com/jodeks-datapacks/sleep/issues)&nbsp;&nbsp;
 [![jodeks datapacks kofi - jodek kofi - minecraft datapack kofi donation](
 https://cdn.jsdelivr.net/gh/jodeks-datapacks/Assets@main/badges/Kofi.png)](https://ko-fi.com/jodek)&nbsp;&nbsp;
@@ -46,6 +46,7 @@ Run:
 ```
 /trigger sleep.config
 ```
+<sub>For the tick accelerate setting you have to set `function-permission-level` to `3`</sub>
 
 ## Config for 1.20.1:
 
